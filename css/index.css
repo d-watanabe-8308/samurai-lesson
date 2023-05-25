@@ -1,0 +1,21 @@
+.profile {
+  position: absolute; /* 要素の位置を絶対位置に固定します */
+  width: 220px; /* 枠の幅を調整します */
+  height: 69px; /* 枠の高さを調整します */
+  left: 179px; /* 要素の左端の位置を指定します */
+  top: 20px; /* 要素の上端の位置を指定します */
+  display: flex; /* Flexboxを使用します */
+  align-items: center; /* 垂直方向の中央揃えを行います */
+  justify-content: center; /* 水平方向の中央揃えを行います */
+  font-family: 'Noto Sans'; /* フォントの指定です */
+  font-style: normal; /* フォントスタイルを通常に設定します */
+  font-weight: 700; /* フォントの太さを指定します */
+  color: #000000; /* テキストの色を指定します */
+  border: 1px solid #000000; /* 枠のスタイルを指定します */
+}
+
+.profile h1 {
+  font-size: 34px; /* テキストのサイズを指定します */
+  line-height: 1; /* 行の高さをデフォルトに戻し、テキストが中央に配置されるようにします */
+  margin: 0; /* デフォルトのマージンを削除します */
+}
