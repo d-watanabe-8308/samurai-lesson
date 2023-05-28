@@ -30,6 +30,15 @@ nav a {
   margin-right: 20px;
 }
 
+.mainpic {
+  width: auto;
+  height: 400px;
+}
+
+img {
+  margin: 0 auto;
+  max-width: 100%;
+}
 
 .top-headline-1 {
   position: absolute;
@@ -85,13 +94,6 @@ nav a {
   margin: 0;
   line-height: 1;
   font-size: 34px;
-}
-
-.img-main {
-  position: absolute;
-  width: 960px;
-  height: 400px;
-  top: 109px;
 }
 
 .middle-headline-1 {
