@@ -1,3 +1,36 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px auto 20px auto;
+  max-width: 960px
+}
+
+nav a {
+  font-weigth: bold;
+  text-decoration: none;
+  font-size: 34px;
+  color: black;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.home {
+  border: 1px solid black;
+  padding: 0px 20px;
+  margin-left: 20px;
+}
+
+.menu > a {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
 .top-headline-1 {
   position: absolute;
   left: 179px;
